@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="left"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+     android:gravity="center"
+      android:text="8500174150 | 9618898918"
+      android:autoLink = "phone"/>
+
+
+    <TextView
+
+        android:id="@+id/textView"
+
+        android:layout_width="130dp"
+
+        android:layout_height="50dp"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="15dp"
+
+        android:gravity="center"
+
+        android:text="Select State and City"
+
+        android:textSize="15dp"
+
+        />
+
+    <Spinner
+
+        android:id="@+id/spinnerState"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="28dp"
+
+        android:entries="@array/state_array" />
+
+    <Spinner
+
+        android:id="@+id/spinnerCity"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignLeft="@+id/spinnerState"
+
+        android:layout_below="@+id/spinnerState"
+
+        android:layout_marginTop="42dp"
+
+        android:entries="@array/city_karnataka" />
+
+  <Spinner
+
+      android:id="@+id/spinnerArea"
+
+      android:layout_width="wrap_content"
+
+      android:layout_height="wrap_content"
+
+      android:layout_alignLeft="@+id/spinnerCity"
+
+      android:layout_below="@+id/spinnerCity"
+
+      android:layout_marginTop="42dp"
+
+      android:entries="@array/area_bangalore" />
+
+
+
+</RelativeLayout>

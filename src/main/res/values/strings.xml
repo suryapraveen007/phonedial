@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">phonedailer</string>
+
+    <string-array name="state_array">
+
+        <item>Karnataka</item>
+
+        <item>Andra pradesh</item>
+
+        <item>Telangana</item>
+
+    </string-array>
+
+    <string-array name="city_karnataka">
+
+        <item>Bangalore</item>
+
+        <item>Mysore</item>
+
+        <item>Bellary</item>
+
+        <item>Hosur</item>
+
+    </string-array>
+
+    <string-array name="city_andra">
+
+        <item>Anantapur</item>
+
+        <item>kadapa</item>
+
+        <item>kurnool</item>
+
+        <item>Chittor</item>
+
+    </string-array>
+
+    <string-array name="city_telangana">
+
+        <item>Hyderabad</item>
+
+        <item>Nalgonda</item>
+
+        <item>Ranga Reddy</item>
+
+        <item>Medhak</item>
+
+    </string-array>
+
+    <string-array name="area_bangalore">
+
+        <item>Btm</item>
+
+        <item>Jayanagar</item>
+
+        <item>Maratahalli</item>
+
+        <item>Whitefield</item>
+
+    </string-array>
+
+    <string-array name="area_mysore">
+
+        <item>parkinmysore</item>
+
+        <item>mysore temple</item>
+
+        <item>Mysore road</item>
+
+
+    </string-array>
+
+
+</resources>
